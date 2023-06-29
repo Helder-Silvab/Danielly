@@ -12,6 +12,10 @@ body {
   user-select: none;
 }
 
+.textFont {
+  font-family: "IBM Plex Sans Condensed";
+}
+
 a {
   all: unset;
 }
@@ -335,8 +339,8 @@ a {
     display: none;
   }
 
-  .height60-SE {
-    height: 60px;
+  .height80-SE {
+    height: 80px;
   }
 
   .height200-SE {

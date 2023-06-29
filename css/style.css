@@ -335,6 +335,10 @@ a {
     display: none;
   }
 
+  .height60-SE {
+    height: 60px;
+  }
+
   .height200-SE {
     height: 200px;
   }

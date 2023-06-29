@@ -295,3 +295,35 @@ a {
 .borderBlack {
   border: 1px solid #080808;
 }
+
+.display-none-SE {
+  display: none;
+}
+
+.height100percent {
+  height: 100%;
+}
+
+.zindex998 {
+  z-index: 998;
+}
+
+#myNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .display-none-SE {
+    display: block;
+  }
+
+  .display-block-SE {
+    display: block;
+  }
+
+  .display-no {
+    display: none;
+  }
+}

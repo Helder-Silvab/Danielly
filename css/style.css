@@ -389,4 +389,8 @@ a {
   .width-75-SE {
     width: 75%;
   }
+
+  .label-size-50-SE {
+    font-size: 50px;
+  }
 }

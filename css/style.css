@@ -314,9 +314,17 @@ a {
   width: 100%;
 }
 
+.display-noneflex-SE {
+  display: none;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .display-none-SE {
     display: block;
+  }
+
+  .display-noneflex-SE {
+    display: flex;
   }
 
   .display-block-SE {
@@ -348,6 +356,10 @@ a {
 
   .margin-left-20-SE {
     margin-left: 20px;
+  }
+
+  .margin-left-50-SE {
+    margin-left: 50px;
   }
 
   .margin-left-60-SE {
